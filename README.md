@@ -3,11 +3,11 @@
 
 
 # Features 📱
-🌍 Current Location Weather - Detect and show weather for your current location
-🔍 City Search - Search weather by City name
-🌡️ Detailed Weather Info - Temperature, humidity, wind speed, and pressure
-🎨 Beautiful UI - Clean and modern interface with weather icons
-📱 Responsive Design - Works on both Android and iOS
+🌍 Current Location Weather - Detect and show weather for your current location<br>
+🔍 City Search - Search weather by City name<br>
+🌡️ Detailed Weather Info - Temperature, humidity, wind speed, and pressure<br>
+🎨 Beautiful UI - Clean and modern interface with weather icons<br>
+📱 Responsive Design - Works on both Android and iOS<br>
 
 
 ## Before You Started
@@ -17,7 +17,7 @@ Flutter SDK (3.0.0 or higher)
 Android Studio or VS Code with Flutter extensions
 
 ## Getting Started
-git clone https://github.com/ThaN1eL/flutter-weather-app.git
+git clone [https://github.com/ThaN1eL/flutter-weather-app.git](https://github.com/ThaN1eL/WeatherAPP)
 
 ## Setup API Key
 1. Get free API key from [OpenWeatherMap](https://openweathermap.org/api)
