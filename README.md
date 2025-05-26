@@ -22,7 +22,7 @@ git clone [https://github.com/ThaN1eL/flutter-weather-app.git](https://github.co
 ## Setup API Key
 1. Get free API key from [OpenWeatherMap](https://openweathermap.org/api)
 2. Create lib/config/api_keys.dart
-3.
+3. lib/config/api_keys.dart
 ```js
 class ApiKeys {
   static const String weatherApiKey = 'YOUR_API_KEY';
