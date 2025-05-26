@@ -30,5 +30,5 @@ class ApiKeys {
   }
 ```
 
-#Happy Coding! 🚀
-If you found this project helpful, Please give me a ⭐ star! :)
+#Happy Coding! 🚀<br>
+If you found this project helpful, Please give me a ⭐ star! Thank You!  :)
