@@ -2,14 +2,15 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:geolocator/geolocator.dart';
 import '../models/weather.dart';
+import '../config/api_keys.dart';
 
 class WeatherService {
-  static const String apiKey = '7269c58205e18c824d2d525216c2dff8';
-  static const String baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
+  static const String _apiKey = ApiKeys.weatherApiKey;
+  static const String _baseUrl = ApiKeys.baseUrl;
 
   Future<Weather> getCurrentWeather(String cityName) async {
     final response = await http.get(
-      Uri.parse('$baseUrl?q=$cityName&appid=$apiKey&units=metric'),
+      Uri.parse('$_baseUrl?q=$cityName&appid=$_apiKey&units=metric'),
     );
 
     if (response.statusCode == 200) {
@@ -39,7 +40,7 @@ class WeatherService {
     );
 
     final response = await http.get(
-      Uri.parse('$baseUrl?lat=${position.latitude}&lon=${position.longitude}&appid=$apiKey&units=metric'),
+      Uri.parse('$_baseUrl?lat=${position.latitude}&lon=${position.longitude}&appid=$_apiKey&units=metric'),
     );
 
     if (response.statusCode == 200) {
