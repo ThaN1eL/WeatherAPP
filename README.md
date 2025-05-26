@@ -11,10 +11,10 @@
 
 
 ## Before You Started
-Before you begin, ensure you have the following installed:
-Dart SDK (2.17.0 or higher)
-Flutter SDK (3.0.0 or higher)
-Android Studio or VS Code with Flutter extensions
+Before you begin, ensure you have the following installed:<br>
+Dart SDK (2.17.0 or higher)<br>
+Flutter SDK (3.0.0 or higher)<br>
+Android Studio or VS Code with Flutter extensions<br>
 
 ## Getting Started
 git clone [https://github.com/ThaN1eL/flutter-weather-app.git](https://github.com/ThaN1eL/WeatherAPP)
