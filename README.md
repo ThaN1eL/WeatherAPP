@@ -17,7 +17,7 @@ Flutter SDK (3.0.0 or higher)
 Android Studio or VS Code with Flutter extensions
 
 ## Getting Started
-git clone https://github.com/yourusername/flutter-weather-app.git
+git clone https://github.com/ThaN1eL/flutter-weather-app.git
 
 ## Setup API Key
 1. Get free API key from [OpenWeatherMap](https://openweathermap.org/api)
